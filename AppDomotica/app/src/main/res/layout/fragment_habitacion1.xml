@@ -30,7 +30,7 @@
                     android:textSize="24sp" />
 
                 <ToggleButton
-                    android:id="@+id/toggleButton"
+                    android:id="@+id/tglHab1Luz"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="ToggleButton" />
@@ -51,7 +51,7 @@
                     android:textSize="24sp" />
 
                 <ToggleButton
-                    android:id="@+id/toggleButton"
+                    android:id="@+id/tglHab1Ventilador"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="ToggleButton" />
@@ -72,7 +72,7 @@
                     android:textSize="24sp" />
 
                 <ToggleButton
-                    android:id="@+id/toggleButton"
+                    android:id="@+id/tglHab1Tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="ToggleButton" />
