@@ -49,6 +49,7 @@ public class InformacionGeneral extends AppCompatActivity {
                 Intent intent = new Intent(InformacionGeneral.this, Principal.class);
 
                 startActivity(intent);
+                //finish();
             }
 
         });

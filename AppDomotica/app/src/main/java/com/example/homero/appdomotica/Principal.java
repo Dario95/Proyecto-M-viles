@@ -1,5 +1,6 @@
 package com.example.homero.appdomotica;
 
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -18,6 +19,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import android.widget.TextView;
+import android.widget.Toast;
+
+import java.io.File;
 
 public class Principal extends AppCompatActivity {
 
@@ -70,6 +74,7 @@ public class Principal extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_principal, menu);
+
         return true;
     }
 
@@ -81,11 +86,23 @@ public class Principal extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+
+
+        switch (item.toString()) {
+            case "Información":
+                Intent intent = new Intent(Principal.this, InformacionGeneral.class);
+
+                startActivity(intent);
+                //finish();
+                break;
+            default:
+                Toast.makeText(this,"Default",Toast.LENGTH_LONG).show();
+
         }
 
-        return super.onOptionsItemSelected(item);
+
+        return true;
+
     }
 
     /**

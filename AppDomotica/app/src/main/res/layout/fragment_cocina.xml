@@ -29,7 +29,7 @@
                     android:textSize="24sp" />
 
                 <ToggleButton
-                    android:id="@+id/toggleButton"
+                    android:id="@+id/tglCocinaLuz"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="ToggleButton" />
@@ -50,7 +50,7 @@
                     android:textSize="24sp" />
 
                 <ToggleButton
-                    android:id="@+id/toggleButton"
+                    android:id="@+id/tglCocinaCocina"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="ToggleButton" />
@@ -71,7 +71,7 @@
                     android:textSize="24sp" />
 
                 <ToggleButton
-                    android:id="@+id/toggleButton"
+                    android:id="@+id/tglCocinaRadio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="ToggleButton" />
