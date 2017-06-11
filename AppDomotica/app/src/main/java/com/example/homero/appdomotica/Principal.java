@@ -87,13 +87,24 @@ public class Principal extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
 
-
+        Intent intent;
         switch (item.toString()) {
             case "Información":
-                Intent intent = new Intent(Principal.this, InformacionGeneral.class);
+                intent = new Intent(Principal.this, InformacionGeneral.class);
 
                 startActivity(intent);
-                //finish();
+                finish();
+                break;
+            case "I.A.":
+                intent = new Intent(Principal.this, IA.class);
+                startActivity(intent);
+               
+                break;
+            case "Log":
+                intent = new Intent(Principal.this, Log.class);
+
+                startActivity(intent);
+
                 break;
             default:
                 Toast.makeText(this,"Default",Toast.LENGTH_LONG).show();

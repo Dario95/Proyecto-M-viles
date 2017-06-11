@@ -4,7 +4,13 @@
     tools:context="com.example.homero.appdomotica.Principal">
     <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
+        android:orderInCategory="101"
         android:title="Información"
         app:showAsAction="never" />
+    <item
+        android:orderInCategory="102"
+        android:title="Log" />
+    <item
+        android:orderInCategory="103"
+        android:title="I.A." />
 </menu>
