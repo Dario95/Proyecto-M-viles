@@ -98,7 +98,7 @@ public class Principal extends AppCompatActivity {
             case "I.A.":
                 intent = new Intent(Principal.this, IA.class);
                 startActivity(intent);
-               
+
                 break;
             case "Log":
                 intent = new Intent(Principal.this, Log.class);
