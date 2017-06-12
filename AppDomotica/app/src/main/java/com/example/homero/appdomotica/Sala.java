@@ -14,14 +14,6 @@ import android.widget.ToggleButton;
 import java.util.Random;
 
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link Sala.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link Sala#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class Sala extends Fragment {
     private ToggleButton luz1;
     private ToggleButton luz2;
