@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "771659759703",
+    "firebase_url": "https://appfirebase-bad34.firebaseio.com",
+    "project_id": "appfirebase-bad34",
+    "storage_bucket": "appfirebase-bad34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771659759703:android:24a34a626c06bc93",
+        "android_client_info": {
+          "package_name": "com.example.homero.appfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771659759703-mti3sd4rl9ut674kdubqp8apsu0u0s99.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homero.appfirebase",
+            "certificate_hash": "1c7d688702a4baa3da383b817ed8db3978b6386f"
+          }
+        },
+        {
+          "client_id": "771659759703-tcsh33mkat3rsgicvm924khg5l3t1qv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFXTi4mtrv1w39Z5sSaK65IYlmLPFRWnk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771659759703-tcsh33mkat3rsgicvm924khg5l3t1qv8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
